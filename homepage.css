@@ -3,12 +3,65 @@ input {
     height: 30px;
 }
 
+#toolbar {
+    
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    left: 86.5%
+    
+}
+
+#toolbar:hover {
+    
+    background-image: image(/Users/yasminmorgan/Desktop/account_toolbar2.png)
+}
+
+#images_positioning {
+    
+    position: absolute;
+    left: 80%;
+    padding: 6px;
+    color: #4c4c4c;
+}
+
+#images_positioning:hover {
+    
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+
+#gmail_positioning {
+    
+    position: absolute;
+    left: 75%;
+    padding: 6px;
+    color: #4c4c4c;
+}
+
+#gmail_positioning:hover {
+    
+    cursor: pointer;
+    text-decoration: underline;
+}
+#sign_in {
+    
+    font-family: sans-serif;
+    font-size: 13px;
+    background-color: #6666ff;
+    border: none;
+    border-radius: 3px;
+    width: 70px;
+    height: 30px;
+    font-weight: bold;
+    color: white;
+}
 
 #google_logo {
    
     
    position: absolute;
-   top: 50%;
+   top: 55%;
    left: 60%;
    width: 500px;
    height: 500px;
@@ -34,7 +87,7 @@ input {
  position: absolute;
    top: 78%;
    left: 61%;
-   width: 500px;
+   width: 300px;
    height: 500px;
    margin-top: -250px; /* Half the height */
    margin-left: -250px; /* Half the width */
@@ -55,7 +108,7 @@ input {
 
 .button {
     font-family: "Helvetica Neu", sans-serif;
-    width: 9em;
+    width: 9.5em;
     height: 40px;
     display: inline;
     border: none;
@@ -76,7 +129,7 @@ input {
     color: black;
     border-style: solid;
     border-width: 1px;
-    border-color: gray;
+    border-color: #cccccc;
     box-shadow: 0 0 1px 1px #d3d3d3;
 }
 
@@ -87,4 +140,59 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    font-family: sans-serif;
+    font-size: 14px;
 }
+
+li{
+    display: inline;
+    text-align: center;
+   
+
+}
+
+li a {
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    color:gray;
+}
+
+li a:hover{
+    text-decoration:underline;
+}
+
+#nav_bar {
+    
+    
+    float: right;
+    top: 0%;
+    display: inline;
+    padding: 8px 20px;
+    
+}
+
+#footer {
+    
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    background-color: #f1f1f1;
+    width: 100%;
+    padding: 15px 10px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #d8d8d8;
+   
+}
+
+.footer_right {
+    
+    position: absolute;
+    left: 70%;
+    bottom: 0%;
+    background-color: #f1f1f1;
+    padding: 15px 10px;
+    
+}
+  
