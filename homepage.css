@@ -69,6 +69,16 @@ input {
    margin-left: -250px; /* Half the width */
 }
 
+#microphone {
+    
+    position: absolute;
+   top: 40%;
+   left: 71%;
+   width: 500px;
+   height: 500px;
+   margin-top: -10px; /* Half the height */
+   margin-left: -10px; /* Half the width */
+}
 #search_bar {
    
    position: absolute;
