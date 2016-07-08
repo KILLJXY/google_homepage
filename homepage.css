@@ -1,0 +1,90 @@
+input {
+     width: 40em;
+    height: 30px;
+}
+
+
+#google_logo {
+   
+    
+   position: absolute;
+   top: 50%;
+   left: 60%;
+   width: 500px;
+   height: 500px;
+   margin-top: -250px; /* Half the height */
+   margin-left: -250px; /* Half the width */
+}
+
+#search_bar {
+   
+   position: absolute;
+   top: 70%;
+   left: 52%;
+   width: 480px;
+   height: 39px;
+   margin-top: -250px; /* Half the height */
+   margin-left: -250px; /* Half the width */
+   background: url("/Users/yasminmorgan/Desktop/microphone.png") no-repeat right;
+    
+}
+
+#buttons_1 {
+    
+ position: absolute;
+   top: 78%;
+   left: 61%;
+   width: 500px;
+   height: 500px;
+   margin-top: -250px; /* Half the height */
+   margin-left: -250px; /* Half the width */
+  
+    
+}
+
+#buttons_2 {
+
+    position: absolute;
+   top: 78%;
+   left: 74%;
+   width: 500px;
+   height: 500px;
+   margin-top: -250px; /* Half the height */
+   margin-left: -250px; /* Half the width */
+}
+
+.button {
+    font-family: "Helvetica Neu", sans-serif;
+    width: 9em;
+    height: 40px;
+    display: inline;
+    border: none;
+    color: gray;
+    background-color: #f1f1f1 ;
+    padding: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    box-shadow: 0 0 1px 1px #d3d3d3;
+}
+
+/*Navigation bar and footer*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
